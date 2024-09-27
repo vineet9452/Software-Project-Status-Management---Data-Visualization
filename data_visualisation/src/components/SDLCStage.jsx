@@ -7,7 +7,7 @@ const SDLCStage = ({ stage }) => {
   }
 
   const completedSteps = stage.steps.filter((step) => step.completed).length;
-  const progress = Math.round((completedSteps / stage.steps.length) * 100); // Round to nearest integer
+  const progress = Math.round((completedSteps / stage.steps.length) * 100); 
 
   return (
     <div className="mb-3">
